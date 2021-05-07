@@ -1,0 +1,90 @@
+[0m2021.05.07 15:42:41 INFO  Started: Metals version 0.10.2 in workspace '/Users/zobninatn/scala/fp-in-scala' for client vscode 1.55.2.[0m
+[0m2021.05.07 15:42:42 INFO  time: initialize in 0.87s[0m
+[0m2021.05.07 15:42:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher7897695853070182667/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.05.07 15:42:43 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/src/main/scala/fp/Hello.scala[0m
+[0m[32m[D][0m Loading 0 projects from '/Users/zobninatn/scala/fp-in-scala/.bloop'...
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher7897695853070182667/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher7897695853070182667/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.07 15:42:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/zobninatn/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.07 15:42:45 INFO  time: Connected to build server in 1.58s[0m
+[0m2021.05.07 15:42:45 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.07 15:42:46 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/metals5461542083437862689/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.05.07 15:42:46 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/project/metals.sbt[0m
+[0m2021.05.07 15:42:46 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/project/metals.sbt[0m
+[0m2021.05.07 15:42:46 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/project/project/metals.sbt[0m
+[0m2021.05.07 15:42:46 INFO  skipping build import with status 'Started'[0m
+[0m2021.05.07 15:42:49 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_242)[0m
+[0m2021.05.07 15:42:49 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.07 15:42:49 ERROR Empty build targets. Expected at least one build target identifier.[0m
+[0m2021.05.07 15:42:49 ERROR Empty build targets. Expected at least one build target identifier.[0m
+[0m2021.05.07 15:42:49 ERROR Empty build targets. Expected at least one build target identifier.[0m
+[0m2021.05.07 15:42:52 INFO  [info] loading global plugins from /Users/zobninatn/.sbt/1.0/plugins[0m
+[0m2021.05.07 15:42:58 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.07 15:42:58 INFO  time: indexed workspace in 8.13s[0m
+[0m2021.05.07 15:42:58 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/src/main/scala/fp/Hello.scala[0m
+[0m2021.05.07 15:42:58 INFO  time: code lens generation in 12s[0m
+[0m2021.05.07 15:42:58 INFO  time: code lens generation in 14s[0m
+[0m2021.05.07 15:42:59 INFO  [info] loading settings for project fp-in-scala-build-build from metals.sbt ...[0m
+[0m2021.05.07 15:42:59 INFO  [info] loading project definition from /Users/zobninatn/scala/fp-in-scala/project/project[0m
+[0m2021.05.07 15:43:02 INFO  [info] loading settings for project fp-in-scala-build from metals.sbt ...[0m
+[0m2021.05.07 15:43:02 INFO  [info] loading project definition from /Users/zobninatn/scala/fp-in-scala/project[0m
+[0m2021.05.07 15:43:04 INFO  [success] Generated .bloop/fp-in-scala-build.json[0m
+[0m2021.05.07 15:43:04 INFO  [info] compiling 1 Scala source to /Users/zobninatn/scala/fp-in-scala/project/target/scala-2.12/sbt-1.0/classes ...[0m
+[0m2021.05.07 15:43:09 WARN  no build target for: /Users/zobninatn/scala/fp-in-scala/src/main/scala/fp/Hello.scala[0m
+[0m2021.05.07 15:43:10 INFO  [info] done compiling[0m
+[0m2021.05.07 15:43:10 INFO  [success] Total time: 8 s, completed May 7, 2021 3:43:10 PM[0m
+[0m2021.05.07 15:43:12 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.05.07 15:43:12 INFO  [info] set current project to fp-in-scala (in build file:/Users/zobninatn/scala/fp-in-scala/)[0m
+[0m2021.05.07 15:43:12 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.05.07 15:43:12 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.05.07 15:43:12 INFO  [success] Total time: 0 s, completed May 7, 2021 3:43:13 PM[0m
+[0m2021.05.07 15:43:12 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.05.07 15:43:13 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+[0m2021.05.07 15:43:13 INFO  Disconnecting from Bloop session...[0m
+[0m2021.05.07 15:43:13 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.05.07 15:43:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher5385954682087862915/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading 2 projects from '/Users/zobninatn/scala/fp-in-scala/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/zobninatn/scala/fp-in-scala/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/Users/zobninatn/scala/fp-in-scala/.bloop/root.json'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher5385954682087862915/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher5385954682087862915/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.07 15:43:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/zobninatn/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.07 15:43:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher6760674094524893296/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher6760674094524893296/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/pc/q2lcrvk95p17ktpl2jmkgd7m0000gn/T/bsp-launcher6760674094524893296/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.07 15:43:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/zobninatn/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.05.07 15:43:13 INFO  time: Connected to build server in 0.39s[0m
+[0m2021.05.07 15:43:13 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.07 15:43:13 INFO  time: Imported build in 0.12s[0m
+[0m2021.05.07 15:43:17 INFO  time: indexed workspace in 3.48s[0m
+[0m2021.05.07 15:43:17 INFO  compiling root (1 scala source)[0m
+[0m2021.05.07 15:43:23 INFO  compiling root-test (1 scala source)[0m
+[0m2021.05.07 15:43:23 INFO  time: compiled root in 6.45s[0m
+[0m2021.05.07 15:43:23 INFO  time: compiled root-test in 0.68s[0m
+[0m2021.05.07 15:47:19 INFO  compiling root (1 scala source)[0m
+[0m2021.05.07 15:47:21 INFO  time: compiled root in 2.19s[0m
+[0m2021.05.07 15:47:29 INFO  compiling root (1 scala source)[0m
+[0m2021.05.07 15:47:31 INFO  time: compiled root in 1.69s[0m
+[0m2021.05.07 15:49:43 INFO  compiling root (1 scala source)[0m
+[0m2021.05.07 15:49:46 INFO  time: compiled root in 2.84s[0m
+[0m2021.05.07 21:12:06 INFO  compiling root (3 scala sources)[0m
+[0m2021.05.07 21:12:10 INFO  time: compiled root in 3.7s[0m
