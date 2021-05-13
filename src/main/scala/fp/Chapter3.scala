@@ -42,7 +42,7 @@ object List { // `List` companion object. Contains functions for creating and wo
 
 
   // Task 3.1
-  val x = List(1, 2, 3, 4, 5) match {
+  val x: Int = List(1, 2, 3, 4, 5) match {
     case Cons(x, Cons(2, Cons(4, _))) => x
     case Nil => 42
     case Cons(x, Cons(y, Cons(3, Cons(4, _)))) => x + y
@@ -74,6 +74,7 @@ object List { // `List` companion object. Contains functions for creating and wo
   def dropWhile[A](l: List[A], f: A => Boolean): List[A] = l match {
     case Nil => Nil
     case Cons(h, t) if f(h) => dropWhile(t, f)
+    case Cons(h, t) => Cons(h, t)
   }
 
   // Task 3.6
@@ -84,5 +85,20 @@ object List { // `List` companion object. Contains functions for creating and wo
   }
 
   // Task 3.9
-  def length[A](l: List[A]): Int = ???
+  def length[A](l: List[A]): Int = foldRight(l, 0)((_, acc) => acc + 1)
+
+  // Task 3.10
+  @annotation.tailrec
+  def foldLeft[A, B](l: List[A], z: B)(f: (B, A) => B): B = l match {
+    case Nil => z
+    case Cons(h, t) => foldLeft(t, f(z, h))(f)
+  }
+
+  // Task 3.11
+  def sumFoldLeft(l: List[Int]): Int = foldLeft(l, 0)(_ + _)
+  def productFoldLeft(l: List[Double]): Double = foldLeft(l, 0.0)(_ * _)
+  def lengthFoldLeft[A](l: List[A]): Int = foldLeft(l, 0)((acc, _) => acc + 1)
+
+  // Task 3.12
+  def reverse[A](l: List[A]): List[A] = foldLeft()
 }

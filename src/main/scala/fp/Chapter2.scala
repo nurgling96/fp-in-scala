@@ -24,7 +24,7 @@ object Chapter2 {
   }
 
   // Task 2.3
-  def curry[A, B, C](f: (A, B) => C): A => B =>  C = a => b => f(a, b)
+  def curry[A, B, C](f: (A, B) => C): A => B => C = a => b => f(a, b)
 
   // Task 2.4
   def uncurry[A, B, C](f: A => B => C): (A, B) => C = (a, b) => f(a)(b)
